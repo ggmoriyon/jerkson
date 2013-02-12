@@ -4,7 +4,6 @@ import com.codahale.jerkson.util.scalax.rules.scalasig._
 import com.fasterxml.jackson.databind.JavaType
 import com.fasterxml.jackson.databind.`type`.TypeFactory
 import scala.reflect.ScalaSignature
-import scala.reflect.generic.ByteCodecs
 
 class MissingPickledSig(clazz: Class[_]) extends Error("Failed to parse pickled Scala signature from: %s".format(clazz))
 
