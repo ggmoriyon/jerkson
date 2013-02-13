@@ -17,7 +17,7 @@ Requirements
 Setting Up Your Project
 -----------------------
 
-Best way is to add Jerkson 2.10 as a sbt source dependency using its git uri
+Clone and make a source dependency
 
 
 Parsing JSON
