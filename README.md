@@ -10,31 +10,14 @@ brings Scala's ease-of-use to Jackson's features.
 Requirements
 ------------
 
-* Scala 2.8.2 or 2.9.1
-* Jackson 1.9.x
+* Scala 2.10
+* Jackson 2.1.1
 
 
 Setting Up Your Project
 -----------------------
 
-Go ahead and add Jerkson as a dependency:
-
-```xml
-<repositories>
-  <repository>
-    <id>repo.codahale.com</id>
-    <url>http://repo.codahale.com</url>
-  </repository>
-</repositories>
-
-<dependencies>
-  <dependency>
-    <groupId>com.codahale</groupId>
-    <artifactId>jerkson_${scala.version}</artifactId>
-    <version>0.5.0</version>
-  </dependency>
-</dependencies>
-```
+Best way is to add Jerkson 2.10 as a sbt source dependency using its git uri
 
 
 Parsing JSON
