@@ -22,3 +22,7 @@ libraryDependencies += "com.fasterxml.jackson.core" % "jackson-core" % "2.1.1"
 
 libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.1.1"
 
+libraryDependencies += "org.mockito" % "mockito-all" % "1.9.0"
+
+libraryDependencies += "junit" % "junit" % "4.10"
+
