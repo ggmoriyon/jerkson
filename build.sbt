@@ -1,4 +1,4 @@
-scalaVersion := "2.10.1"
+scalaVersion := "2.10.4"
 
 scalaSource in Compile <<= (baseDirectory)(_ / "src")
 
@@ -26,3 +26,4 @@ libraryDependencies += "org.mockito" % "mockito-all" % "1.9.0"
 
 libraryDependencies += "junit" % "junit" % "4.10"
 
+publishTo := Some(Resolver.file("file",  new File(Path.userHome.absolutePath+"/.m2/repository")))
